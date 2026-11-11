@@ -1,0 +1,12 @@
+{
+ "mode": "clean",
+ "frames": 150,
+ "fps": 4.995004995004995,
+ "depth_ms_per_frame": 29.5,
+ "median_step_m": 2.93,
+ "implied_speed_kmh": 52.6,
+ "path_length_m": 386.7,
+ "points": 186126,
+ "fx_assumed": 576.0,
+ "depth_model": "depth-anything/Depth-Anything-V2-Metric-Outdoor-Small-hf"
+}
