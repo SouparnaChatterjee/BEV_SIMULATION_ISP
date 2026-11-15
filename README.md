@@ -31,12 +31,6 @@ Numbers below are from my run; the full table is in `isp_eval.md` / `isp_eval.cs
 - Rain was roughly a wash.
 - TODO: add the denoise-first ISP variant row if you ran it.
 
-## RTAB-Map map
-
-![pointcloud](pointcloud_screenshot.png)
-
-TODO: add a screenshot, and a Sketchfab link for the interactive cloud.
-
 How it was built, and what did not work:
 
 - RTAB-Map's own visual odometry **failed to track this clip** (too few inliers per frame). Likely causes: night imagery, roughly 5 fps with about 2.9 m between frames, and depth that is predicted rather than measured.
